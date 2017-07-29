@@ -1,0 +1,2 @@
+opencv_createsamples.exe -info C:\Users\Flajt\Documents\GitHub\Python-Webcam\info.txt -num 141 -vec C:\Users\Flajt\Documents\GitHub\Python-Webcam\pos.vec -w 20 -h 20
+opencv_traincascade.exe -data C:\Users\Flajt\Documents\GitHub\Python-Webcam\data -vec C:\Users\Flajt\Documents\GitHub\Python-Webcam\pos.vec -bg bg.txt -numPos 14 -numNeg 30 -numStages 10 -w 20 -h 20 -precalcValBufSize 1000 -precalcIdxBufSize 1000
